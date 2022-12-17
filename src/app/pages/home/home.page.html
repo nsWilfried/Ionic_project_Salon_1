@@ -17,8 +17,8 @@
       </ion-buttons>
 
       <div class="searchbar">
-        <ion-label class="sub_heading">Find artist that you want</ion-label>
-        <ion-searchbar placeholder="Search here.." mode="md"></ion-searchbar>
+        <ion-label class="sub_heading">Trouver un document ou un dossier</ion-label>
+        <ion-searchbar placeholder="Rechercher..." mode="md"></ion-searchbar>
       </div>
 
     </div>
@@ -54,6 +54,20 @@
       </ion-col>
     </ion-row>
   </div>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button>
+    <ion-icon name="arrow-up-circle"></ion-icon>
+  </ion-fab-button>
+
+<ion-fab-list side="top">
+  <ion-chip>
+    <ion-label>Créer un dossier</ion-label>
+  </ion-chip>
+  
+</ion-fab-list>
+
+</ion-fab>
 
 
 </ion-content>
